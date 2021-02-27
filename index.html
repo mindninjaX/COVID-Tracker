@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Covid Tracker</h1>
+    </header>
+
+    <section>
+        <button onclick="fetchCovid()">Fetch Stats</button>
+
+        <div class="data">
+            Total Cases:<div class="data-item" id="cases"></div> <br>
+            New Cases:<div class="data-item" id="todaycases"></div> <br>
+            Total Deaths:<div class="data-item" id="deaths"></div> <br>
+            New Deaths:<div class="data-item" id="todayDeaths"></div> <br>
+            Total Recovered<div class="data-item" id="recovered"></div> <br>
+            Active Cases:<div class="data-item" id="active"></div> <br>
+            Critical Cases:<div class="data-item" id="critical"></div> <br>
+            Affected Countries:<div class="data-item" id="affectedCountries"></div> <br>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
