@@ -54,7 +54,7 @@ The information it displays are:
 
 The information is fetched through an API.
 
-![screencapture-covid-tracker-mindninjax-netlify-app-1614409824828](https://user-images.githubusercontent.com/59148052/109378521-3b2e1e00-78f9-11eb-9546-5743dfe6f56e.png)
+![screencapture-covid-tracker-mindninjax-netlify-app-1614428842653](https://user-images.githubusercontent.com/59148052/109387113-63337680-7925-11eb-94ca-046b3f9f9fc2.png)
 
 
 
