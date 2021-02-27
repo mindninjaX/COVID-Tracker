@@ -29,7 +29,7 @@ section {
 button {
   margin: 1em;
   padding: 1rem;
-  width: 8em;
+  width: 15em;
 
   background-color: #00febc;
   border: 1px solid #00febc;
@@ -45,6 +45,11 @@ button:hover {
   background-color: #0e11a8;
   border-color: #00febc;
   color: #00febc;
+}
+
+canvas {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .data {
